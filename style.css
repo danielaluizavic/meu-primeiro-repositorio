@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 85px;
+    background-color: black;
+    border: rgb(15, 15, 15) 3px solid;
+
+}
+
+
+
+.container{
+    width: 88%;
+     height: 100%;
+     margin: auto;
+   
+     
+ }
+
+
+ .header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+
+
+.navbar{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.header h1 {
+    color: rgba(241, 65, 34, 0.571);
+}
+
+
+.navbar li {
+    font-weight: lighter;
+    color: rgba(235, 54, 22, 0.632);
+
+}
+
+.navbar .active{
+    font-weight: bolder;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: rgba(250, 72, 41, 0.639);
+}
+
+
+.banner{
+    height: 600px;
+    background-image:url("https://a-static.besthdwallpaper.com/xicara-de-cafe-papel-de-parede-2560x1440-11013_51.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: solid black 5px;
+    
+
+}
+
+
+.message{
+    margin-right: 250px;
+    width: 35%;
+    color: rgba(255, 52, 52, 0.557);
+    font-size: 70px ;
+    background-color: rgba(14, 8, 8, 0.571);
+    
+    
+    
+}
+
+.massage span {
+    font-weight: bolder;
+  
+   
+    
+
+}
+
+
+.proposito {
+    height: 100px;
+    background-color: black;
+    
+}
+
+
+
+.fonder{
+    background-color: black;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+
+}
+
+
+
